@@ -69,7 +69,7 @@ header {
 }
 
 header h1 {
-  font-family: 'Chivo', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
+  font-family: 'Lobster', 'Helvetica Neue', Helvetica, Arial, serif; font-weight: 900;
   letter-spacing: -1px;
   font-size: 48px;
   color: #303030;
@@ -77,6 +77,7 @@ header h1 {
 }
 
 header h2 {
+  font-family: 'Tenor Sans', sans-serif;
   letter-spacing: -1px;
   font-size: 24px;
   color: #aaa;
@@ -103,22 +104,22 @@ header h2 {
 }
 
 a.button {
-  -moz-border-radius: 30px;
-  -webkit-border-radius: 30px;                     
-  border-radius: 30px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
   border-top: solid 1px #cbcbcb;
   border-left: solid 1px #b7b7b7;
   border-right: solid 1px #b7b7b7;
   border-bottom: solid 1px #b3b3b3;
   color: #303030;
-  line-height: 25px;
+  line-height: 32px;
   font-weight: bold;
   font-size: 15px;
-  padding: 12px 8px 12px 8px;
+  padding: 6px 6px 6px 6px;
   display: block;
   float: left;
-  width: 179px;
-  margin-right: 14px;  
+  width: 170px;
+  margin-right: 10px;
   background: #fdfdfd; /* Old browsers */
   background: -moz-linear-gradient(top,  #fdfdfd 0%, #f2f2f2 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fdfdfd), color-stop(100%,#f2f2f2)); /* Chrome,Safari4+ */
@@ -149,17 +150,17 @@ a.button:hover {
 a.button span {
   padding-left: 50px;
   display: block;
-  height: 23px;
+  height: 32px;
 }
 
-#download-zip span {
-  background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
+#vkontakte span {
+  background: transparent url(../images/vk-icon.png) 12px 50% no-repeat;
 }
-#download-tar-gz span {
-  background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat;
+#facebook span {
+  background: transparent url(../images/fb-icon.png) 12px 50% no-repeat;
 }
-#view-on-github span {
-  background: transparent url(../images/octocat-icon.png) 12px 50% no-repeat;
+#twitter span {
+  background: transparent url(../images/tw-icon.png) 12px 50% no-repeat;
 }
 #view-on-github {
   margin-right: 0;
@@ -245,6 +246,7 @@ h1 {
 } 
 
 h2 {
+  font-family: 'Tenor Sans', sans-serif;
   font-size: 22px;
   font-weight: bold;
   color: #303030;
