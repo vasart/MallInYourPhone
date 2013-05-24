@@ -235,7 +235,6 @@ td {
 form {
   background: #f2f2f2;
   padding: 20px;
-  
 }
 
 
@@ -247,7 +246,7 @@ h1 {
 
 h2 {
   font-family: 'Tenor Sans', sans-serif;
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   color: #303030;
   margin-bottom: 8px;
