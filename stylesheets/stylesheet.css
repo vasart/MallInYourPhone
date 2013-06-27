@@ -92,11 +92,18 @@ header h2 {
 
 .inner {
   width: 620px;
-  margin: 0 auto;
+  margin-left: 50%;
 }
 
 #container .inner img {
   max-width: 100%;
+}
+
+.illustration {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
 }
 
 #downloads {
@@ -132,6 +139,7 @@ a.button {
   -moz-box-shadow: 10px 10px 5px #888;
   box-shadow: 0px 1px 5px #e8e8e8;
 }
+
 a.button:hover {
   border-top: solid 1px #b7b7b7;
   border-left: solid 1px #b3b3b3;
@@ -161,9 +169,6 @@ a.button span {
 }
 #twitter span {
   background: transparent url(../images/tw-icon.png) 12px 50% no-repeat;
-}
-#view-on-github {
-  margin-right: 0;
 }
 
 code, pre {
