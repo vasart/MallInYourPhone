@@ -106,6 +106,10 @@ header h2 {
   width: 50%;
 }
 
+#main_content {
+  margin-right: 20px;
+}
+
 #downloads {
   margin-bottom: 40px;
 }
